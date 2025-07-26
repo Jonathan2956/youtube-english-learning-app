@@ -1,0 +1,14 @@
+```
+youtube-english-learning-app/
+├── backend/
+│   ├── app.py              # Flask API (YouTube, Whisper, DeepSegment, LibreTranslate, Mapping)
+│   ├── requirements.txt    # पायथन डिपेंडेंसीज़
+│   ├── config.py          # API कीज़, कॉन्फिग
+├── lib/                    # Flutter कोड
+│   ├── main.dart          # मुख्य ऐप
+│   ├── screens/           # UI (वीडियो प्लेयर, 3-लाइन फॉर्मेट)
+│   ├── services/          # API कॉल्स
+├── scripts/                # यूटिलिटी स्क्रिप्ट्स
+├── pubspec.yaml           # Flutter डिपेंडेंसीज़
+├── README.md              # सेटअप, Render होस्टिंग, APK इंस्ट्रक्शंस
+```
